@@ -31,52 +31,52 @@ main(void){
 	scanf("%d", &vari);
 	if(random==vari){
 		
-		printf("\nnúmero do programa:%d", random);
-		printf("\nSeu número:%d", vari);
+		printf("\nnÃºmero do programa:%d", random);
+		printf("\nSeu nÃºmero:%d", vari);
 		printf("\nDeu Impate");
 	
 	}else if(random==1 && vari==2){
 		
-		printf("\nnúmero do programa:%d", random);
-		printf("\nSeu número:%d", vari);
+		printf("\nnÃºmero do programa:%d", random);
+		printf("\nSeu nÃºmero:%d", vari);
 		printf("\nentre Pedra e Papel ganha a Papel");
-		printf("\nVocê venceu");
+		printf("\nVocÃª venceu");
 	
 	}else if(random==1 && vari==3){
 		
-		printf("\nnúmero do programa:%d", random);
-		printf("\nSeu número:%d", vari);		
+		printf("\nnÃºmero do programa:%d", random);
+		printf("\nSeu nÃºmero:%d", vari);		
 		printf("\nentre Pedra e Tesoura ganha a Pedra");
 		printf("\no pc ganhou");
 	
 	}else if(random==2 && vari==1){
 		
-		printf("\nnúmero do programa:%d", random);
-		printf("\nSeu número:%d", vari);		
+		printf("\nnÃºmero do programa:%d", random);
+		printf("\nSeu nÃºmero:%d", vari);		
 		printf("\nentre Papel e pedra ganha a Papel");
 		printf("\no pc ganhou");
 	
 	}else if(random==2 && vari==3){
 		
-		printf("\nnúmero do programa:%d", random);
-		printf("\nSeu número:%d", vari);
+		printf("\nnÃºmero do programa:%d", random);
+		printf("\nSeu nÃºmero:%d", vari);
 		printf("\nentre Papel e Tesoura ganha a Tesoura");
-		printf("\nVocê venceu");
+		printf("\nVocÃª venceu");
 	
 	}else if(random==3 && vari==1){
 		
-		printf("\nnúmero do programa:%d", random);
-		printf("\nSeu número:%d", vari);
+		printf("\nnÃºmero do programa:%d", random);
+		printf("\nSeu nÃºmero:%d", vari);
 		printf("\nentre Tesoura e Pedra ganha a Pedra");
-		printf("\nVocê venceu");
+		printf("\nVocÃª venceu");
 	
 	}else if(random==3 && vari==2){
-		printf("\nnúmero do programa:%d", random);
-		printf("\nSeu número:%d", vari);	
+		printf("\nnÃºmero do programa:%d", random);
+		printf("\nSeu nÃºmero:%d", vari);	
 		printf("\nentre Tesoura e Papel ganha a Tesoura");
 		printf("\no pc ganhou");
 	}
-	printf("\nQuer recomeçar?:");
+	printf("\nQuer recomeÃ§ar?:");
 	scanf("%s", &perg);
 	while(strcmp(perg,"Sim")==0||strcmp(perg, "sim")==0||strcmp(perg,"s")==0||strcmp(perg,"S")==0){
 		random=rand() % 3+1;
@@ -92,52 +92,52 @@ main(void){
 		scanf("%d", &vari);
 		if(random==vari){
 			
-			printf("\nnúmero do programa:%d", random);
-			printf("\nSeu número:%d", vari);
+			printf("\nnÃºmero do programa:%d", random);
+			printf("\nSeu nÃºmero:%d", vari);
 			printf("\nDeu Impate");
 		
 		}else if(random==1 && vari==2){
 			
-			printf("\nnúmero do programa:%d", random);
-			printf("\nSeu número:%d", vari);
+			printf("\nnÃºmero do programa:%d", random);
+			printf("\nSeu nÃºmero:%d", vari);
 			printf("\nentre Pedra e Papel ganha a Papel");
-			printf("\nVocê venceu");
+			printf("\nVocÃª venceu");
 		
 		}else if(random==1 && vari==3){
 			
-			printf("\nnúmero do programa:%d", random);
-			printf("\nSeu número:%d", vari);		
+			printf("\nnÃºmero do programa:%d", random);
+			printf("\nSeu nÃºmero:%d", vari);		
 			printf("\nentre Pedra e Tesoura ganha a Pedra");
 			printf("\no pc ganhou");
 		
 		}else if(random==2 && vari==1){
 			
-			printf("\nnúmero do programa:%d", random);
-			printf("\nSeu número:%d", vari);		
+			printf("\nnÃºmero do programa:%d", random);
+			printf("\nSeu nÃºmero:%d", vari);		
 			printf("\nentre Papel e pedra ganha a Papel");
 			printf("\no pc ganhou");
 		
 		}else if(random==2 && vari==3){
 			
-			printf("\nnúmero do programa:%d", random);
-			printf("\nSeu número:%d", vari);
+			printf("\nnÃºmero do programa:%d", random);
+			printf("\nSeu nÃºmero:%d", vari);
 			printf("\nentre Papel e Tesoura ganha a Tesoura");
-			printf("\nVocê venceu");
+			printf("\nVocÃª venceu");
 		
 		}else if(random==3 && vari==1){
 			
-			printf("\nnúmero do programa:%d", random);
-			printf("\nSeu número:%d", vari);
+			printf("\nnÃºmero do programa:%d", random);
+			printf("\nSeu nÃºmero:%d", vari);
 			printf("\nentre Tesoura e Pedra ganha a Pedra");
-			printf("\nVocê venceu");
+			printf("\nVocÃª venceu");
 		
 		}else if(random==3 && vari==2){
-			printf("\nnúmero do programa:%d", random);
-			printf("\nSeu número:%d", vari);	
+			printf("\nnÃºmero do programa:%d", random);
+			printf("\nSeu nÃºmero:%d", vari);	
 			printf("\nentre Tesoura e Papel ganha a Tesoura");
 			printf("\no pc ganhou");
 		}
-		printf("\nQuer recomeçar?:");
+		printf("\nQuer recomeÃ§ar?:");
 		scanf("%s", &perg);
 		//TODO
 	}
